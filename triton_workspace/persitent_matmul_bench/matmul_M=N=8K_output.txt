@@ -1,0 +1,196 @@
+233.083 ROOT
+├─ nan _ZN2at6native18elementwise_kernelILi128ELi4EZNS0_22gpu_kernel_impl_nocastIZZZNS0_23direct_copy_kernel_cudaERNS_18TensorIteratorBaseEENKUlvE1_clEvENKUlvE8_clEvEUlN3c104HalfEE_EEvS4_RKT_EUliE_EEviT1_
+├─ nan _ZN2at6native54_GLOBAL__N__d8ceb000_21_DistributionNormal_cu_0c5b6e8543distribution_elementwise_grid_stride_kernelIfLi4EZNS0_9templates4cuda20normal_and_transformIN3c104HalfEfPNS_17CUDAGeneratorImplEZZZNS4_13normal_kernelIS9_EEvRKNS_10TensorBaseEddT_ENKUlvE_clEvENKUlvE1_clEvEUlfE_EEvRNS_18TensorIteratorBaseET1_T2_EUlP24curandStatePhilox4_32_10E0_ZNS1_27distribution_nullary_kernelIS7_f6float4S9_SO_SH_EEvSJ_SL_RKT3_T4_EUlifE_EEviNS_15PhiloxCudaStateESK_SL_
+├─ 219.156 cublas [M=8192, N=8192, K=1024]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 221.440 cublas [M=8192, N=8192, K=1280]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 204.874 cublas [M=8192, N=8192, K=1536]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 209.019 cublas [M=8192, N=8192, K=1792]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 213.842 cublas [M=8192, N=8192, K=2048]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 215.264 cublas [M=8192, N=8192, K=2304]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 210.458 cublas [M=8192, N=8192, K=2560]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 165.097 cublas [M=8192, N=8192, K=256]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 213.808 cublas [M=8192, N=8192, K=2816]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 216.975 cublas [M=8192, N=8192, K=3072]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 219.240 cublas [M=8192, N=8192, K=3328]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 221.656 cublas [M=8192, N=8192, K=3584]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 223.370 cublas [M=8192, N=8192, K=3840]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 225.653 cublas [M=8192, N=8192, K=4096]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 242.482 cublas [M=8192, N=8192, K=4352]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 237.044 cublas [M=8192, N=8192, K=4608]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 237.680 cublas [M=8192, N=8192, K=4864]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 237.985 cublas [M=8192, N=8192, K=5120]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 202.084 cublas [M=8192, N=8192, K=512]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 238.355 cublas [M=8192, N=8192, K=5376]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 238.665 cublas [M=8192, N=8192, K=5632]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 239.332 cublas [M=8192, N=8192, K=5888]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 239.537 cublas [M=8192, N=8192, K=6144]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 239.790 cublas [M=8192, N=8192, K=6400]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 240.167 cublas [M=8192, N=8192, K=6656]
+│  └─ nan _ZN7cutlass6KernelI66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 246.234 cublas [M=8192, N=8192, K=6912]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.273 cublas [M=8192, N=8192, K=7168]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.325 cublas [M=8192, N=8192, K=7424]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.773 cublas [M=8192, N=8192, K=7680]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 211.161 cublas [M=8192, N=8192, K=768]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 247.124 cublas [M=8192, N=8192, K=7936]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 247.607 cublas [M=8192, N=8192, K=8192]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 218.126 matmul_kernel [M=8192, N=8192, K=1024]
+├─ 225.857 matmul_kernel [M=8192, N=8192, K=1280]
+├─ 229.436 matmul_kernel [M=8192, N=8192, K=1536]
+├─ 231.498 matmul_kernel [M=8192, N=8192, K=1792]
+├─ 233.802 matmul_kernel [M=8192, N=8192, K=2048]
+├─ 235.485 matmul_kernel [M=8192, N=8192, K=2304]
+├─ 237.931 matmul_kernel [M=8192, N=8192, K=2560]
+├─ 152.651 matmul_kernel [M=8192, N=8192, K=256]
+├─ 238.922 matmul_kernel [M=8192, N=8192, K=2816]
+├─ 240.329 matmul_kernel [M=8192, N=8192, K=3072]
+├─ 241.265 matmul_kernel [M=8192, N=8192, K=3328]
+├─ 241.924 matmul_kernel [M=8192, N=8192, K=3584]
+├─ 242.526 matmul_kernel [M=8192, N=8192, K=3840]
+├─ 243.541 matmul_kernel [M=8192, N=8192, K=4096]
+├─ 243.956 matmul_kernel [M=8192, N=8192, K=4352]
+├─ 244.612 matmul_kernel [M=8192, N=8192, K=4608]
+├─ 245.047 matmul_kernel [M=8192, N=8192, K=4864]
+├─ 245.503 matmul_kernel [M=8192, N=8192, K=5120]
+├─ 190.765 matmul_kernel [M=8192, N=8192, K=512]
+├─ 245.695 matmul_kernel [M=8192, N=8192, K=5376]
+├─ 245.917 matmul_kernel [M=8192, N=8192, K=5632]
+├─ 246.471 matmul_kernel [M=8192, N=8192, K=5888]
+├─ 246.697 matmul_kernel [M=8192, N=8192, K=6144]
+├─ 247.152 matmul_kernel [M=8192, N=8192, K=6400]
+├─ 247.425 matmul_kernel [M=8192, N=8192, K=6656]
+├─ 247.542 matmul_kernel [M=8192, N=8192, K=6912]
+├─ 247.715 matmul_kernel [M=8192, N=8192, K=7168]
+├─ 247.887 matmul_kernel [M=8192, N=8192, K=7424]
+├─ 248.256 matmul_kernel [M=8192, N=8192, K=7680]
+├─ 208.906 matmul_kernel [M=8192, N=8192, K=768]
+├─ 248.414 matmul_kernel [M=8192, N=8192, K=7936]
+├─ 248.774 matmul_kernel [M=8192, N=8192, K=8192]
+├─ 206.235 matmul_kernel_persistent [M=8192, N=8192, K=1024]
+├─ 209.181 matmul_kernel_persistent [M=8192, N=8192, K=1280]
+├─ 211.077 matmul_kernel_persistent [M=8192, N=8192, K=1536]
+├─ 212.706 matmul_kernel_persistent [M=8192, N=8192, K=1792]
+├─ 213.901 matmul_kernel_persistent [M=8192, N=8192, K=2048]
+├─ 214.547 matmul_kernel_persistent [M=8192, N=8192, K=2304]
+├─ 216.321 matmul_kernel_persistent [M=8192, N=8192, K=2560]
+├─ 164.322 matmul_kernel_persistent [M=8192, N=8192, K=256]
+├─ 216.892 matmul_kernel_persistent [M=8192, N=8192, K=2816]
+├─ 217.563 matmul_kernel_persistent [M=8192, N=8192, K=3072]
+├─ 217.957 matmul_kernel_persistent [M=8192, N=8192, K=3328]
+├─ 218.233 matmul_kernel_persistent [M=8192, N=8192, K=3584]
+├─ 218.631 matmul_kernel_persistent [M=8192, N=8192, K=3840]
+├─ 219.534 matmul_kernel_persistent [M=8192, N=8192, K=4096]
+├─ 220.055 matmul_kernel_persistent [M=8192, N=8192, K=4352]
+├─ 219.702 matmul_kernel_persistent [M=8192, N=8192, K=4608]
+├─ 220.127 matmul_kernel_persistent [M=8192, N=8192, K=4864]
+├─ 220.187 matmul_kernel_persistent [M=8192, N=8192, K=5120]
+├─ 190.860 matmul_kernel_persistent [M=8192, N=8192, K=512]
+├─ 220.396 matmul_kernel_persistent [M=8192, N=8192, K=5376]
+├─ 221.041 matmul_kernel_persistent [M=8192, N=8192, K=5632]
+├─ 221.049 matmul_kernel_persistent [M=8192, N=8192, K=5888]
+├─ 220.990 matmul_kernel_persistent [M=8192, N=8192, K=6144]
+├─ 221.112 matmul_kernel_persistent [M=8192, N=8192, K=6400]
+├─ 221.286 matmul_kernel_persistent [M=8192, N=8192, K=6656]
+├─ 221.521 matmul_kernel_persistent [M=8192, N=8192, K=6912]
+├─ 221.373 matmul_kernel_persistent [M=8192, N=8192, K=7168]
+├─ 221.477 matmul_kernel_persistent [M=8192, N=8192, K=7424]
+├─ 221.836 matmul_kernel_persistent [M=8192, N=8192, K=7680]
+├─ 200.009 matmul_kernel_persistent [M=8192, N=8192, K=768]
+├─ 221.985 matmul_kernel_persistent [M=8192, N=8192, K=7936]
+├─ 222.183 matmul_kernel_persistent [M=8192, N=8192, K=8192]
+├─ 219.004 torch [M=8192, N=8192, K=1024]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 220.873 torch [M=8192, N=8192, K=1280]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 205.156 torch [M=8192, N=8192, K=1536]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 209.267 torch [M=8192, N=8192, K=1792]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 213.824 torch [M=8192, N=8192, K=2048]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 214.929 torch [M=8192, N=8192, K=2304]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 210.505 torch [M=8192, N=8192, K=2560]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 168.038 torch [M=8192, N=8192, K=256]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 214.002 torch [M=8192, N=8192, K=2816]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 216.728 torch [M=8192, N=8192, K=3072]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 219.421 torch [M=8192, N=8192, K=3328]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 221.798 torch [M=8192, N=8192, K=3584]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 223.718 torch [M=8192, N=8192, K=3840]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 225.702 torch [M=8192, N=8192, K=4096]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x256_ldg8_f2f_stages_64x3_tn
+├─ 242.458 torch [M=8192, N=8192, K=4352]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 241.613 torch [M=8192, N=8192, K=4608]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 242.025 torch [M=8192, N=8192, K=4864]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 242.325 torch [M=8192, N=8192, K=5120]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 202.075 torch [M=8192, N=8192, K=512]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 242.697 torch [M=8192, N=8192, K=5376]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 243.598 torch [M=8192, N=8192, K=5632]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 243.729 torch [M=8192, N=8192, K=5888]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 243.989 torch [M=8192, N=8192, K=6144]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 244.511 torch [M=8192, N=8192, K=6400]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 244.798 torch [M=8192, N=8192, K=6656]
+│  └─ nan _ZN7cutlass7Kernel2I66cutlass_80_tensorop_f16_s16816gemm_relu_f16_128x256_32x6_tn_align8EEvNT_6ParamsE
+├─ 246.188 torch [M=8192, N=8192, K=6912]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.501 torch [M=8192, N=8192, K=7168]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.393 torch [M=8192, N=8192, K=7424]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 246.958 torch [M=8192, N=8192, K=7680]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+├─ 210.251 torch [M=8192, N=8192, K=768]
+│  └─ nan ampere_fp16_s16816gemm_fp16_128x128_ldg8_f2f_stages_32x5_tn
+├─ 247.197 torch [M=8192, N=8192, K=7936]
+│  └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+└─ 247.545 torch [M=8192, N=8192, K=8192]
+   └─ nan ampere_fp16_s16816gemm_fp16_256x128_ldg8_f2f_stages_64x3_tn
+

@@ -539,11 +539,9 @@ def bench_fn(reps, warmup_reps, fn, *args):
             fn(*args)
 
 
-def bench(K, dtype, tiles_per_update, reps=1000, warmup_reps=10000):
-    # M = 4096
-    # N = 4096
-    M = 8192
-    N = 8192
+def bench(K, dtype, tiles_per_update, reps=1000, warmup_reps=10000, MN_size=8192):
+    M = MN_size
+    N = MN_size
     a = torch.randn((M, K), device="cuda", dtype=torch.float16).to(dtype)
     b = torch.randn((K, N), device="cuda", dtype=torch.float16).to(dtype)
 
@@ -615,6 +613,7 @@ if __name__ == "__main__":
     parser.add_argument("-K", type=int, required=False, default=512)
     parser.add_argument("--K_range", type=int, nargs=2)
     parser.add_argument("--K_step", type=int, default=512)
+    parser.add_argument("--MN-size", type=int, default=8192)
     parser.add_argument(
         "--tiles_per_update",
         type=int,
@@ -642,6 +641,6 @@ if __name__ == "__main__":
 
     proton.start("matmul", hook="triton")
     for K in range(args.K_range[0], args.K_range[1] + 1, args.K_step):
-        bench(K, dtype, args.tiles_per_update)
+        bench(K, dtype, args.tiles_per_update, MN_size=args.MN_size)
     proton.finalize()
     show_profile(args.prec, "matmul")
